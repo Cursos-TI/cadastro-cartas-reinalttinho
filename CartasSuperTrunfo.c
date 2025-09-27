@@ -69,15 +69,26 @@ int main() {
     printf("\n\n--- CARTAS CADASTRADAS COM SUCESSO! ---\n");
     
 
-  // Área para exibição dos dados da cidade
-    printf("Primeira Carta cadastrada com sucesso! Confira os dados:\n");
+  // Área para exibição das CARTAS:
+  // CARTA 1
+    printf("\nConfira os dados da Carta nº1:\n");
     printf("ESTADO: %c\n", estado);
     printf("CÓDIGO DA CARTA: %c\n", codigoCarta);
     printf("CIDADE: %s\n", cidade);
-    printf("ESTADO: %d\n", populacao);
-    printf("ESTADO: %f\n", area);
-    printf("ESTADO: %f\n", pib);
-    printf("ESTADO: %d\n", pontosTur);
+    printf("POPULAÇÃO: %d\n", populacao);
+    printf("ÁREA: %f Km²\n", area);
+    printf("PIB: R$%f\n", pib);
+    printf("PONTOS TURISTICOS: %d\n", pontosTur);
+
+  // CARTA 2
+    printf("\nConfira os dados da Carta nº2:\n");
+    printf("ESTADO: %c\n", estado2);
+    printf("CÓDIGO DA CARTA: %s\n", codigoCarta2);
+    printf("CIDADE: %s\n", cidade2);
+    printf("POPULACAO: %d\n", populacao2);
+    printf("AREA: %.2f Km²\n", area2);
+    printf("PIB: R$%.2f \n", pib2);
+    printf("PONTOS TURISTICOS: %d\n", pontosTur2);
 
 return 0;
 
