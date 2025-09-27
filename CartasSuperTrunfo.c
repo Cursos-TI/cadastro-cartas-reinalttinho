@@ -74,7 +74,7 @@ int main() {
   // CARTA 1
     printf("\nConfira os dados da Carta nº1:\n");
     printf("ESTADO: %c\n", estado);
-    printf("CÓDIGO DA CARTA: %c\n", codigoCarta);
+    printf("CÓDIGO DA CARTA: %s\n", codigoCarta);
     printf("CIDADE: %s\n", cidade);
     printf("POPULAÇÃO: %d\n", populacao);
     printf("ÁREA: %f Km²\n", area);
