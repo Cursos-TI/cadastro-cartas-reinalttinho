@@ -18,9 +18,10 @@ int main() {
 
     printf("Seja bem-vindo(a) ao SuperTrunfo Cidades!\n");
     printf("-------------------------------------------\n");
+  
+  // ÁREA DE INSERÇÃO DOS DADOS DAS CARTAS:
 
-    // --- Entrada de dados para a CARTA 1 ---
-    printf("\nVamos cadastrar a PRIMEIRA carta do jogo!\n");
+    printf("Digite uma letra entre A e H para representar o Estado: ");
     scanf(" %c", &estado);
 
     printf("Digite um código para a sua Cidade! Ele deve conter a letra do Estado + um número de 0 a 4:\n");
@@ -45,7 +46,7 @@ int main() {
     printf("\nVamos cadastrar a SEGUNDA carta do jogo!\n");
 
     printf("Digite uma letra entre A e H para representar o Estado: ");
-    scanf(" %c", &estado2); // O espaço antes de %c é crucial aqui
+    scanf(" %c", &estado2);
 
     printf("Digite o código da carta (ex: B02): ");
     scanf("%s", codigoCarta2);
@@ -59,7 +60,7 @@ int main() {
     printf("Informe a Area da cidade (em km²): ");
     scanf("%f", &area2);
 
-    printf("Informe o PIB da cidade (em bilhões de R$): ");
+    printf("Informe o PIB da cidade (em R$): ");
     scanf("%f", &pib2);
 
     printf("Informe o total de Pontos Turísticos da cidade: ");
