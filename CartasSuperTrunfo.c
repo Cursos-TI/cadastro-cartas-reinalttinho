@@ -19,7 +19,7 @@ int main() {
     printf("Digite uma letra entre A e H para representar o Estado:\n");
     scanf("%c", &estado);
 
-    printf("Digite um código (numero de 0 a 4) para a sua Cidade:\n");
+    printf("Digite um código para a sua Cidade! Ele deve conter a letra do Estado + um número de 0 a 4:\n");
     scanf(" %s", codigoCarta);
 
     printf("Digite o nome da Cidade:\n");
