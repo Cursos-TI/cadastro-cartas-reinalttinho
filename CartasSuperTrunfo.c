@@ -19,8 +19,8 @@ int main() {
     printf("Digite uma letra entre A e H para representar o Estado:\n");
     scanf("%c", &estado);
 
-    printf("Digite um código (máximo de 3 caracteres) para sua carta (letras e números):\n");
-    scanf(" %c", &codigoCarta);
+    printf("Digite um código (numero de 0 a 4) para a sua Cidade:\n");
+    scanf(" %s", codigoCarta);
 
     printf("Digite o nome da Cidade:\n");
     scanf(" %s", cidade);
